@@ -32,7 +32,7 @@ export default function ZonaPerigo({ token, aoDesativar }) {
       <div className="cartao-topo">
         <div>
           <h2>Zona de perigo</h2>
-          <p className="sub">desativar minha conta</p>
+          <p className="sub">Desativar minha conta</p>
         </div>
         <span className="selo selo-delete">DELETE</span>
       </div>

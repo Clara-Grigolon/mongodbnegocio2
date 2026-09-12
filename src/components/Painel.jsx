@@ -43,7 +43,7 @@ export default function Painel({ sessao, aoAtualizarUsuario, aoSair }) {
             <strong>{sessao.usuario?.nome}</strong>
             <span>{sessao.usuario?.email}</span>
           </div>
-          <button className="botao botao-fantasma" onClick={aoSair}>
+          <button className="botao botao-sair" onClick={aoSair}>
             Sair
           </button>
         </div>

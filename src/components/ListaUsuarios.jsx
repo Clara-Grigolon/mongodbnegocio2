@@ -112,7 +112,7 @@ export default function ListaUsuarios({ token, meuId, versao, aoRecarregar }) {
               <Avatar nome={u.nome} />
               <div className="card-texto">
                 <strong>
-                  {u.nome} {u.id === meuId && <span className="tag">você</span>}
+                  {u.nome} {u.id === meuId && <span className="tag">Você</span>}
                 </strong>
                 <span>{u.email}</span>
                 {u.criadoEm && (
